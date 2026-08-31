@@ -1,0 +1,4 @@
+Study,Model,Dataset,Classes,Accuracy,F1 (weighted),Top-3 Acc,Deployment
+Noor et al. (2025),EfficientNetB0+B2+ResNet50 Ensemble,"ismailpromus (27,153)",10,~0.97 (reported),N/A,N/A,Not reported
+Ours — Phase 1 only,EfficientNetB0 (feature extraction),ismailpromus (balanced),10,0.6993,0.6984,N/A,Offline (.h5)
+Ours — Phase 1 + Phase 2 (DermaAssist AI),EfficientNetB0 (two-phase fine-tuning),ismailpromus (balanced),10,0.7531,0.7536,0.9586,Offline (.h5) + TFLite + Cloud AI
